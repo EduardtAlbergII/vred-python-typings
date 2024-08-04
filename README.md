@@ -12,7 +12,7 @@ You are invited to commit changes, extensions & corrections. You are also welcom
 # Who needs this?
 If you are a developer and are annoyed that neither autocompletion nor linting work with VRED Python projects, then this repository is for you.
 
-![here should be a cool picture](/resources/preview_autocompletion.png)
+![here should be a cool picture](./resources/preview_autocompletion.png)
 
 As you can see, there is still a lot missing, but this is a good start.
 
