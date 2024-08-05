@@ -38,3 +38,5 @@ vrCameraService: vrCameraServiceClass
 vrNodeService: vrNodeServiceClass
 ##########################################################################
 ```
+# Behind the scenes
+I built pyi files with my own (stub generator)("https://github.com/EduardtAlbergII/ugly_stub_generator"). It's not perfect and ignores imports and inheritance, but it's sufficient for a basic framework.
