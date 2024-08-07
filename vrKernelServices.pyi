@@ -12504,7 +12504,7 @@ class vrdMaterialList:
     def removeAt(self, i: int) -> bool: ...
     def size(self) -> int: ...
 
-class vrdMaterialNode:
+class vrdMaterialNode(vrdNode):
     __doc__: NoneType
     __module__: str
     materialProperty: str

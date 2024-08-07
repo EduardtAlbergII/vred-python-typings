@@ -39,7 +39,7 @@ class NodePtr:
     def __str__(self) -> None: ...
     def __subclasshook__(self) -> None: ...
 
-class vrNodePtr:
+class vrNodePtr(NodePtr):
     __module__: str
     __doc__: str
     __instance_size__: int
