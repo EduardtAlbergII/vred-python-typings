@@ -17814,7 +17814,7 @@ class vrdSwitchMaterial:
     def setName(self, name: str) -> None: ...
     def setPreviewScene(self, name: str) -> None: ...
 
-class vrdSwitchNode:
+class vrdSwitchNode(vrdNode):
     __doc__: NoneType
     __module__: str
     choiceProperty: str
